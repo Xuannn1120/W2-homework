@@ -133,27 +133,24 @@ table {
 ::after {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Bruno Ace SC", sans-serif;
   line-height: 1.5;
 }
-
 a {
   text-decoration: none;
   display: inline-block;
 }
-
 .container {
   width: 1296px;
   margin: 0 auto;
 }
-
+/* -------------------- */
 header {
   background-color: black;
 }
 header nav ul {
-  padding: 40px;
+  padding: 40px 0px;
 }
 header nav ul li {
   color: #d1d1d1;
@@ -162,11 +159,9 @@ header nav ul li {
 .banner {
   background-color: black;
 }
-
 .banner h2 {
   color: white;
 }
-
 .banner h1 {
   text-align: right;
 }
@@ -192,6 +187,7 @@ header nav ul li {
 .intro ul li img {
   display: block;
 }
+
 .about {
   padding: 160px 0px;
 }
@@ -207,11 +203,11 @@ header nav ul li {
   width: 48%;
   border: 1px solid #e3e3e3;
   box-shadow: 4px 4px 4px 0px #00000014;
+  padding: 16px;
 }
 .about-l li h3 {
   font-size: 20px;
 }
-
 .about-r {
   width: 526px;
 }
@@ -223,12 +219,14 @@ header nav ul li {
   background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
   padding: 96px 0px;
 }
-
 .contact p {
   color: white;
 }
 .contact-r {
   width: 526px;
+}
+.contact-r img {
+  vertical-align: middle;
 }
 .contact ul li {
   border-radius: 40px;
@@ -237,18 +235,18 @@ header nav ul li {
 .contact ul li:hover {
   box-shadow: 0px 0px 16px 3px #9094ffe5;
 }
+
 .project {
   padding: 160px 0px;
 }
-
 .projrct-l-img img {
   display: block;
 }
-
 .project h2 {
   width: 746px;
   margin-left: auto;
 }
+
 .footer {
   background-color: black;
 }
@@ -259,7 +257,6 @@ footer p {
 }
 
 /* buttom */
-
 .but-white {
   background-color: white;
   border-radius: 32px;
@@ -281,24 +278,20 @@ footer p {
   color: white;
   transition: 1s;
 }
-
 .but-black:hover {
   background-color: black;
   box-shadow: 0px 0px 16px 3px #00ffa3;
 }
-
+/* -------------------- */
 .h1 {
   font-size: 128px;
 }
-
 .h2 {
   font-size: 64px;
 }
-
 .text-primary {
   color: #00ffa3;
 }
-
 .w-50 {
   width: 50%;
 }
@@ -333,31 +326,26 @@ footer p {
 .mr-6 {
   margin-right: 24px;
 }
-
 /* flex  */
 
 .d-flex {
   display: flex;
 }
-
 .flex-direction-column {
   flex-direction: column;
 }
 .align-items-center {
   align-items: center;
 }
-
 .align-items-flex-end {
   align-items: flex-end;
 }
-
 .justify-content-center {
   justify-content: center;
 }
 .justify-content-between {
   justify-content: space-between;
 }
-
 .justify-content-flex-end {
   justify-content: flex-end;
 }
