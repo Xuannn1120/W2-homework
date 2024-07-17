@@ -205,6 +205,8 @@ header nav ul li {
 }
 .about-l li {
   width: 48%;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 4px 0px #00000014;
 }
 .about-l li h3 {
   font-size: 20px;
